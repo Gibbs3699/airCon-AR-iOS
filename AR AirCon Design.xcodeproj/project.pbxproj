@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840E0F24273BC18A00BF7938 /* AR_AirCon_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E0F23273BC18A00BF7938 /* AR_AirCon_DesignApp.swift */; };
+		840E0F26273BC18A00BF7938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E0F25273BC18A00BF7938 /* ContentView.swift */; };
+		840E0F28273BC18D00BF7938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E0F27273BC18D00BF7938 /* Assets.xcassets */; };
+		840E0F2B273BC18D00BF7938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E0F2A273BC18D00BF7938 /* Preview Assets.xcassets */; };
+		840E0F36273BC18D00BF7938 /* AR_AirCon_DesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E0F35273BC18D00BF7938 /* AR_AirCon_DesignTests.swift */; };
+		840E0F41273BC18D00BF7938 /* AR_AirCon_DesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E0F40273BC18D00BF7938 /* AR_AirCon_DesignUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840E0F32273BC18D00BF7938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840E0F18273BC18A00BF7938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840E0F1F273BC18A00BF7938;
+			remoteInfo = "AR AirCon Design";
+		};
+		840E0F3D273BC18D00BF7938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840E0F18273BC18A00BF7938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840E0F1F273BC18A00BF7938;
+			remoteInfo = "AR AirCon Design";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840E0F20273BC18A00BF7938 /* AR AirCon Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR AirCon Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840E0F23273BC18A00BF7938 /* AR_AirCon_DesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_AirCon_DesignApp.swift; sourceTree = "<group>"; };
+		840E0F25273BC18A00BF7938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		840E0F27273BC18D00BF7938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840E0F2A273BC18D00BF7938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		840E0F2C273BC18D00BF7938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840E0F31273BC18D00BF7938 /* AR AirCon DesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR AirCon DesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840E0F35273BC18D00BF7938 /* AR_AirCon_DesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_AirCon_DesignTests.swift; sourceTree = "<group>"; };
+		840E0F37273BC18D00BF7938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840E0F3C273BC18D00BF7938 /* AR AirCon DesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR AirCon DesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840E0F40273BC18D00BF7938 /* AR_AirCon_DesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_AirCon_DesignUITests.swift; sourceTree = "<group>"; };
+		840E0F42273BC18D00BF7938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840E0F1D273BC18A00BF7938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E0F2E273BC18D00BF7938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E0F39273BC18D00BF7938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840E0F17273BC18A00BF7938 = {
+			isa = PBXGroup;
+			children = (
+				840E0F22273BC18A00BF7938 /* AR AirCon Design */,
+				840E0F34273BC18D00BF7938 /* AR AirCon DesignTests */,
+				840E0F3F273BC18D00BF7938 /* AR AirCon DesignUITests */,
+				840E0F21273BC18A00BF7938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840E0F21273BC18A00BF7938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840E0F20273BC18A00BF7938 /* AR AirCon Design.app */,
+				840E0F31273BC18D00BF7938 /* AR AirCon DesignTests.xctest */,
+				840E0F3C273BC18D00BF7938 /* AR AirCon DesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840E0F22273BC18A00BF7938 /* AR AirCon Design */ = {
+			isa = PBXGroup;
+			children = (
+				840E0F23273BC18A00BF7938 /* AR_AirCon_DesignApp.swift */,
+				840E0F25273BC18A00BF7938 /* ContentView.swift */,
+				840E0F27273BC18D00BF7938 /* Assets.xcassets */,
+				840E0F2C273BC18D00BF7938 /* Info.plist */,
+				840E0F29273BC18D00BF7938 /* Preview Content */,
+			);
+			path = "AR AirCon Design";
+			sourceTree = "<group>";
+		};
+		840E0F29273BC18D00BF7938 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				840E0F2A273BC18D00BF7938 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		840E0F34273BC18D00BF7938 /* AR AirCon DesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				840E0F35273BC18D00BF7938 /* AR_AirCon_DesignTests.swift */,
+				840E0F37273BC18D00BF7938 /* Info.plist */,
+			);
+			path = "AR AirCon DesignTests";
+			sourceTree = "<group>";
+		};
+		840E0F3F273BC18D00BF7938 /* AR AirCon DesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840E0F40273BC18D00BF7938 /* AR_AirCon_DesignUITests.swift */,
+				840E0F42273BC18D00BF7938 /* Info.plist */,
+			);
+			path = "AR AirCon DesignUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840E0F1F273BC18A00BF7938 /* AR AirCon Design */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840E0F45273BC18D00BF7938 /* Build configuration list for PBXNativeTarget "AR AirCon Design" */;
+			buildPhases = (
+				840E0F1C273BC18A00BF7938 /* Sources */,
+				840E0F1D273BC18A00BF7938 /* Frameworks */,
+				840E0F1E273BC18A00BF7938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR AirCon Design";
+			productName = "AR AirCon Design";
+			productReference = 840E0F20273BC18A00BF7938 /* AR AirCon Design.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840E0F30273BC18D00BF7938 /* AR AirCon DesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840E0F48273BC18D00BF7938 /* Build configuration list for PBXNativeTarget "AR AirCon DesignTests" */;
+			buildPhases = (
+				840E0F2D273BC18D00BF7938 /* Sources */,
+				840E0F2E273BC18D00BF7938 /* Frameworks */,
+				840E0F2F273BC18D00BF7938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840E0F33273BC18D00BF7938 /* PBXTargetDependency */,
+			);
+			name = "AR AirCon DesignTests";
+			productName = "AR AirCon DesignTests";
+			productReference = 840E0F31273BC18D00BF7938 /* AR AirCon DesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840E0F3B273BC18D00BF7938 /* AR AirCon DesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840E0F4B273BC18D00BF7938 /* Build configuration list for PBXNativeTarget "AR AirCon DesignUITests" */;
+			buildPhases = (
+				840E0F38273BC18D00BF7938 /* Sources */,
+				840E0F39273BC18D00BF7938 /* Frameworks */,
+				840E0F3A273BC18D00BF7938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840E0F3E273BC18D00BF7938 /* PBXTargetDependency */,
+			);
+			name = "AR AirCon DesignUITests";
+			productName = "AR AirCon DesignUITests";
+			productReference = 840E0F3C273BC18D00BF7938 /* AR AirCon DesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840E0F18273BC18A00BF7938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					840E0F1F273BC18A00BF7938 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					840E0F30273BC18D00BF7938 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 840E0F1F273BC18A00BF7938;
+					};
+					840E0F3B273BC18D00BF7938 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 840E0F1F273BC18A00BF7938;
+					};
+				};
+			};
+			buildConfigurationList = 840E0F1B273BC18A00BF7938 /* Build configuration list for PBXProject "AR AirCon Design" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840E0F17273BC18A00BF7938;
+			productRefGroup = 840E0F21273BC18A00BF7938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840E0F1F273BC18A00BF7938 /* AR AirCon Design */,
+				840E0F30273BC18D00BF7938 /* AR AirCon DesignTests */,
+				840E0F3B273BC18D00BF7938 /* AR AirCon DesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840E0F1E273BC18A00BF7938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840E0F2B273BC18D00BF7938 /* Preview Assets.xcassets in Resources */,
+				840E0F28273BC18D00BF7938 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E0F2F273BC18D00BF7938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E0F3A273BC18D00BF7938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840E0F1C273BC18A00BF7938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840E0F26273BC18A00BF7938 /* ContentView.swift in Sources */,
+				840E0F24273BC18A00BF7938 /* AR_AirCon_DesignApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E0F2D273BC18D00BF7938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840E0F36273BC18D00BF7938 /* AR_AirCon_DesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E0F38273BC18D00BF7938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840E0F41273BC18D00BF7938 /* AR_AirCon_DesignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840E0F33273BC18D00BF7938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840E0F1F273BC18A00BF7938 /* AR AirCon Design */;
+			targetProxy = 840E0F32273BC18D00BF7938 /* PBXContainerItemProxy */;
+		};
+		840E0F3E273BC18D00BF7938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840E0F1F273BC18A00BF7938 /* AR AirCon Design */;
+			targetProxy = 840E0F3D273BC18D00BF7938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		840E0F43273BC18D00BF7938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		840E0F44273BC18D00BF7938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840E0F46273BC18D00BF7938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AR AirCon Design/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NV8L9334K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AR AirCon Design/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.AR-AirCon-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840E0F47273BC18D00BF7938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AR AirCon Design/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NV8L9334K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AR AirCon Design/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.AR-AirCon-Design";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840E0F49273BC18D00BF7938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NV8L9334K;
+				INFOPLIST_FILE = "AR AirCon DesignTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.AR-AirCon-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR AirCon Design.app/AR AirCon Design";
+			};
+			name = Debug;
+		};
+		840E0F4A273BC18D00BF7938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NV8L9334K;
+				INFOPLIST_FILE = "AR AirCon DesignTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.AR-AirCon-DesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR AirCon Design.app/AR AirCon Design";
+			};
+			name = Release;
+		};
+		840E0F4C273BC18D00BF7938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NV8L9334K;
+				INFOPLIST_FILE = "AR AirCon DesignUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.AR-AirCon-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR AirCon Design";
+			};
+			name = Debug;
+		};
+		840E0F4D273BC18D00BF7938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NV8L9334K;
+				INFOPLIST_FILE = "AR AirCon DesignUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.AR-AirCon-DesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR AirCon Design";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840E0F1B273BC18A00BF7938 /* Build configuration list for PBXProject "AR AirCon Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840E0F43273BC18D00BF7938 /* Debug */,
+				840E0F44273BC18D00BF7938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840E0F45273BC18D00BF7938 /* Build configuration list for PBXNativeTarget "AR AirCon Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840E0F46273BC18D00BF7938 /* Debug */,
+				840E0F47273BC18D00BF7938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840E0F48273BC18D00BF7938 /* Build configuration list for PBXNativeTarget "AR AirCon DesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840E0F49273BC18D00BF7938 /* Debug */,
+				840E0F4A273BC18D00BF7938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840E0F4B273BC18D00BF7938 /* Build configuration list for PBXNativeTarget "AR AirCon DesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840E0F4C273BC18D00BF7938 /* Debug */,
+				840E0F4D273BC18D00BF7938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840E0F18273BC18A00BF7938 /* Project object */;
+}
